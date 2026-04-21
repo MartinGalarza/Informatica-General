@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sobre el estreno</title>
+    </head>
+    <body>
+        <h1>SOBRE EL ESTRENO DE TWD</h1>
+        <img src="https://i.ytimg.com/vi/easgJzzbqAI/maxresdefault.jpg" alt="Estrenos de temporadas de TWD" height="700">
+        <p>The Walking Dead se estrenó el 31 de octubre de 2010, coincidiendo con Halloween, lo que ayudó a reforzar su temática de terror. La serie se mantuvo al aire durante más de una década, finalizando en 2022, y dio lugar a múltiples spin-offs que expanden su universo.</p>
+        <ul>
+            <li><a href="index.html">Pagina Principal</a></li>
+            <li><a href="info.html">Información</a></li>
+            <li><a href="sobre.html">Acerca de TWD</a></li>
+        </ul>
+    </body>
+</html>
