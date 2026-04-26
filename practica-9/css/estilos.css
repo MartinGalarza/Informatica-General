@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+p{
+    color: white; background-color: rgb(210, 31, 0);
+    font-size: 20px;
+}
+li{
+    color: white;
+    font-size: 20px;
+}
+h1{
+    color: white; background-color: red;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+}
