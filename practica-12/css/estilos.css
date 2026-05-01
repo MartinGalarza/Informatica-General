@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(29, 29, 29); 
+    /*Fondo de la pagina*/
+}
+.titulo  {
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(73, 0, 0);
+    /*h1 del index*/
+}
+
+p   {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    /*formato de los parrafos*/
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(73, 0, 0);
+    padding: 20px;
+    flex: 1;
+    border-radius: 20px;
+    /*classe div index*/
+}
+
+img {
+    border-radius: 20px;
+    /*bordes redondeados del la imagen*/
+}
+
+.op {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(73, 0, 0);
+    border-radius: 20px;
+    /*Video del index*/
+}
+
+
+.conjunto {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    display:inline-block;
+    margin: 2px;
+}
+
+a {
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   color: aliceblue;
+   background-color: rgb(73, 0, 0);
+   padding: 10px;
+   border-radius: 20px;
+   transition: 0.3s;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+.cap {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+.capitulos {
+    width: 90%;
+    max-width: 1300px;
+
+
+    padding: 20px;
+    background-color: rgb(73, 0, 0);
+    border-radius: 20px;
+}
+
+nav {
+    text-align: center;
+}
+footer {
+    background-color: rgb(73, 0, 0);
+    color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Este codigo fue modificado por IA
