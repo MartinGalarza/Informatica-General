@@ -1,16 +1,19 @@
 body {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(29, 29, 29); 
+    /*Fondo de la pagina*/
 }
-h1  {
+.titulo  {
     text-align: center;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(73, 0, 0);
+    /*h1 del index*/
 }
 
 p   {
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
+    /*formato de los parrafos*/
 }
 
 .contenedor {
@@ -19,12 +22,14 @@ p   {
     gap: 20px;
     background-color: rgb(73, 0, 0);
     padding: 20px;
-    max-width: 45%;
+    max-width: 48.5%;
     border-radius: 20px;
+    /*classe div index*/
 }
 
 img {
     border-radius: 20px;
+    /*bordes redondeados del la imagen*/
 }
 
 .op {
@@ -32,11 +37,9 @@ img {
     padding: 20px;
     background-color: rgb(73, 0, 0);
     border-radius: 20px;
+    /*Video del index*/
 }
 
-iframe {
-    border-radius: 20px;
-}
 
 .conjunto {
     display: flex;
@@ -54,11 +57,36 @@ a {
    color: aliceblue;
    background-color: rgb(73, 0, 0);
    padding: 10px;
-   margin: auto;
    border-radius: 20px;
    transition: 0.3s;
 }
 
 a:hover {
     background-color: brown;
+    padding: 13px;
+}
+
+.cap{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(73, 0, 0);
+    padding: 15px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.capitulos {
+    display: block;
+    width: 1300px;
+    height: 600px;
+
+    margin: 20px auto;
+
+    padding: 20px;
+    background-color: rgb(73, 0, 0);
+    border-radius: 20px;
+}
+
+nav {
+    text-align: center;
 }
